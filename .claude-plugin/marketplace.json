@@ -11,14 +11,14 @@
   "plugins": [
     {
       "name": "all-agents-mcp",
-      "description": "Orchestrate multiple AI CLI agents (Codex, Gemini, Copilot) through a unified MCP interface with 13 tools and 6 skills",
-      "version": "1.0.0",
+      "description": "Orchestrate multiple AI CLI agents (Codex, Gemini, Copilot) through a unified MCP interface with 14 tools and 8 skills",
+      "version": "1.1.0",
       "category": "development",
       "keywords": ["mcp", "ai", "agents", "orchestration", "multi-agent", "codex", "gemini", "copilot"],
       "license": "MIT",
       "homepage": "https://github.com/Dokkabei97/all-agents-mcp",
       "source": {
-        "source": "git",
+        "source": "url",
         "url": "https://github.com/Dokkabei97/all-agents-mcp.git"
       }
     },
@@ -31,7 +31,7 @@
       "license": "MIT",
       "homepage": "https://github.com/Dokkabei97/hardened-claude-code",
       "source": {
-        "source": "git",
+        "source": "url",
         "url": "https://github.com/Dokkabei97/hardened-claude-code.git"
       }
     }
