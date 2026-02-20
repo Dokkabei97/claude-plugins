@@ -1,0 +1,39 @@
+{
+  "name": "dokkabei-plugins",
+  "owner": {
+    "name": "Dokkabei97",
+    "email": "dokkabei97@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Dokkabei97 — multi-agent orchestration and production-hardened configurations",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "all-agents-mcp",
+      "description": "Orchestrate multiple AI CLI agents (Codex, Gemini, Copilot) through a unified MCP interface with 13 tools and 6 skills",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["mcp", "ai", "agents", "orchestration", "multi-agent", "codex", "gemini", "copilot"],
+      "license": "MIT",
+      "homepage": "https://github.com/Dokkabei97/all-agents-mcp",
+      "source": {
+        "source": "github",
+        "repo": "Dokkabei97/all-agents-mcp"
+      }
+    },
+    {
+      "name": "hardened-claude-code",
+      "description": "Production-hardened Claude Code with safety hooks, multi-stack agents (Kotlin/TypeScript/Python), and 9 commands/7 skills",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["hooks", "safety", "agents", "skills", "commands", "multi-stack", "kotlin", "typescript", "python"],
+      "license": "MIT",
+      "homepage": "https://github.com/Dokkabei97/hardened-claude-code",
+      "source": {
+        "source": "github",
+        "repo": "Dokkabei97/hardened-claude-code"
+      }
+    }
+  ]
+}
