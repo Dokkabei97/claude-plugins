@@ -2,11 +2,11 @@
   "name": "dokkabei-plugins",
   "owner": {
     "name": "Dokkabei97",
-    "email": "dokkabei97@gmail.com"
+    "email": "wkdrn970@gmail.com"
   },
   "metadata": {
-    "description": "Claude Code plugins by Dokkabei97 — multi-agent orchestration and production-hardened configurations",
-    "version": "1.0.0"
+    "description": "Claude Code plugins by Dokkabei97 — multi-agent orchestration, production-hardened configs, and startup toolkit",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -33,6 +33,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Dokkabei97/hardened-claude-code.git"
+      }
+    },
+    {
+      "name": "forged-claude-code",
+      "description": "Startup founding & operations toolkit — 9 agents, 29 skills, 14 commands, 1 hook across CTO/CPO/COO/CMO domains",
+      "version": "1.0.0",
+      "category": "startup",
+      "keywords": ["startup", "founder", "MVP", "growth", "fundraising", "product", "operations", "marketing", "OKR", "pitch-deck", "landing-page", "CTO", "CPO", "COO", "CMO"],
+      "license": "MIT",
+      "homepage": "https://github.com/Dokkabei97/forged-claude-code",
+      "source": {
+        "source": "git",
+        "url": "https://github.com/Dokkabei97/forged-claude-code.git"
       }
     }
   ]
